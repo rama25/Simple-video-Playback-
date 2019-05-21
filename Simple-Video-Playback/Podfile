@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+platform :tvos, '10.0' # (or whatever version you want)
+
+target 'Simple-Video-Playback' do
+pod 'Brightcove-Player-SDK/dynamic'
+end
